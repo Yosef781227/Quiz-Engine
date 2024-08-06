@@ -1,0 +1,42 @@
+[
+    {
+      "type": "one-choice",
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Rome", "Berlin"],
+      "correctAnswer": "Paris",
+      "image": "path/to/image.jpg",
+      "title": "Geography Quiz",
+      "description": "Answer the following questions about world capitals.",
+      "next": {
+        "Paris": 1,
+        "default": 2
+      }
+    },
+    {
+      "type": "input",
+      "question": "What is 2 + 2?",
+      "correctAnswer": "4",
+      "title": "Math Quiz",
+      "description": "Solve the following math problem.",
+      "next": 3
+    },
+    {
+      "type": "multiple-choice",
+      "question": "Select the prime numbers:",
+      "options": ["2", "3", "4", "6"],
+      "correctAnswer": ["2", "3"],
+      "title": "Math Quiz",
+      "description": "Identify the prime numbers from the list.",
+      "next": 4
+    },
+    {
+      "type": "one-choice",
+      "question": "Quiz Completed",
+      "options": [],
+      "correctAnswer": "",
+      "title": "Completion",
+      "description": "You have completed the quiz.",
+      "next": null
+    }
+  ]
+  
